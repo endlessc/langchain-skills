@@ -16,6 +16,7 @@ This project uses skills that contain up-to-date patterns and working reference 
 - **langchain-middleware** - Invoke for structured output with Pydantic
 
 ### LangGraph Skills
+- **langgraph-cli** - Invoke for langgraph CLI commands: new, dev, build, up, deploy, and langgraph.json configuration
 - **langgraph-fundamentals** - Invoke for StateGraph, state schemas, edges, Command, Send, invoke, streaming, error handling
 - **langgraph-persistence** - Invoke for checkpointers, thread_id, time travel, memory, subgraph scoping
 - **langgraph-human-in-the-loop** - Invoke for interrupts, human review, error handling, approval workflows
@@ -24,6 +25,7 @@ This project uses skills that contain up-to-date patterns and working reference 
 - **deep-agents-core** - Invoke for Deep Agents harness architecture
 - **deep-agents-memory** - Invoke for long-term memory with StoreBackend
 - **deep-agents-orchestration** - Invoke for multi-agent coordination
+- **managed-deep-agents** - Invoke for the Managed Deep Agents private-preview REST API (`/v1/deepagents`): create agents, register MCP servers, create threads, stream runs
 
 ## Environment Setup
 

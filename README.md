@@ -86,7 +86,7 @@ export ANTHROPIC_API_KEY=<your-key>   # For Anthropic models
 
 Then run your coding agent from the directory where you installed (for local installs) or from anywhere (for global installs).
 
-## Available Skills (11)
+## Available Skills (13)
 
 ### Getting Started
 - **framework-selection** - Framework comparison reference (LangChain vs LangGraph vs Deep Agents)
@@ -96,6 +96,7 @@ Then run your coding agent from the directory where you installed (for local ins
 - **deep-agents-core** - Agent architecture, harness setup, and SKILL.md format
 - **deep-agents-memory** - Memory, persistence, filesystem middleware
 - **deep-agents-orchestration** - Subagents, task planning, human-in-the-loop
+- **managed-deep-agents** - Managed Deep Agents private-preview REST API (`/v1/deepagents`): create agents, register MCP servers, create threads, stream runs
 
 ### LangChain
 - **langchain-fundamentals** - Agents with create_agent, tools, structured output, middleware basics
@@ -105,5 +106,6 @@ Then run your coding agent from the directory where you installed (for local ins
 ### LangGraph
 - **langgraph-fundamentals** - StateGraph, nodes, edges, state reducers
 - **langgraph-persistence** - Checkpointers, thread_id, cross-thread memory
+- **langgraph-cli** - CLI lifecycle: scaffold, dev, build, deploy, langgraph.json config
 - **langgraph-human-in-the-loop** - Interrupts, human review, approval workflows
 
